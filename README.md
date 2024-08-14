@@ -20,7 +20,7 @@
 |---|---|
 |`npm run dev`|launch the bot ボットを起動します|
 
-## environmental variables / config (bot.config.js)
+## environmental variables / config (verify.config.js)
 
 |variables name / 変数名|Description / 説明|
 |---|---|
