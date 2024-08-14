@@ -34,7 +34,7 @@
 ### Setup / セットアップ
 
 - run `npm install`
-- edit `token` and `url` and `port` in file: `veeify.config.js`
+- edit `token` and `url` and `port` in file: `verify.config.js`
 
 ### Lunch / 起動
 
