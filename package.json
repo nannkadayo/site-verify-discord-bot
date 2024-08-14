@@ -1,0 +1,36 @@
+{
+  "name": "verifybot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run next\" \"npm run bot\"",
+    "next": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "bot": "node bot/index.js"
+  },
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^4.4.3",
+    "concurrently": "^8.2.2",
+    "csv-parser": "^3.0.0",
+    "discord.js": "^14.15.3",
+    "express": "^4.19.2",
+    "fingerprint": "^0.0.1",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18",
+    "redis": "^4.7.0",
+    "signale": "^1.4.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
