@@ -10,7 +10,7 @@
 
 |File Name / ファイル名|Description / 説明|
 |---|---|
-|`bot.config.js`|environmental variables 環境変数|
+|`verify.config.js`|environmental variables 環境変数|
 |`package.json`|package metadata パッケージメタデータ|
 |`LICENSE`|License (copyright information) ライセンス(著作権情報)|
 
@@ -18,7 +18,7 @@
 
 |Command / コマンド|Description / 説明|
 |---|---|
-|`npm start`|launch the bot ボットを起動します|
+|`npm run dev`|launch the bot ボットを起動します|
 
 ## environmental variables / config (bot.config.js)
 
