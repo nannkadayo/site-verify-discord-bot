@@ -214,7 +214,7 @@ client.on(Events.InteractionCreate, async interaction => {
             
             .setLabel('認証を続ける')
             .setStyle(ButtonStyle.Link)
-            .setURL("https://verify.lognaze.com/verify/"+ verifyId);
+            .setURL(config.verify.url+"/verify/"+ verifyId);
         const row = new ActionRowBuilder()
             .addComponents(cancel);
 
